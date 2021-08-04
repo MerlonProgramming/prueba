@@ -1,3 +1,7 @@
+* {
+     overflow-x: hidden;
+}
+
 .hero {
      background: url(../img/image.png);
      background-repeat: no-repeat;
