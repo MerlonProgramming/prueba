@@ -1,0 +1,28 @@
+{
+     "data": [
+          {
+               "id": "1",
+               "nombre": "Kanye West"
+          },
+          {
+               "id":"2",
+               "nombre":"Mark Zuckerberg"
+          },
+          {
+               "id": "3",
+               "nombre": "Cristina Fernández de Kirchner"
+          },
+          {
+               "id": "4",
+               "nombre": "Malala Yousafzai"
+          },          
+          {
+               "id": "5",
+               "nombre": "Elon Musk"
+          },         
+          {
+               "id": "6",
+               "nombre": "Greta Thunberg"
+          }
+     ]
+}
