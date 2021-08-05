@@ -211,14 +211,17 @@
                <img src="./img/close.png" alt="close" class="w-4 h-4 ml-5 mr-5" />
           </div>
      </section>
-     <section class="container mx-auto">
+     <section class="container mx-auto my-4">
           <div class="flex items-center justify-between">
                <h1 class="text-4xl mt-4 overflow-hidden">Previous Rulings</h1>
-               <button class="border-2 border-black px-8 py-2 mt-4">
-                    Grid
-               </button>
+               <div class="flex items-center justify-end">
+                    <button class="border-2 border-black px-8 py-2 mx-2 mt-4" id="grid">
+                         Grid
+                    </button>
+                    <button class="border-2 border-black px-8 py-2 mt-4" id="list">List</button>
+               </div>
           </div>
-          <div class="grid grid-cols-3 gap-4 mt-6">
+          <div class="grid grid-cols-3 gap-4 mt-8" id="change">
                <div class="
                               w-5/6
                               mx-auto
@@ -226,7 +229,7 @@
                               bg-white
                               rounded-lg
                               shadow-lg
-                         ">
+                         " id="cards1">
                     <button class="
                                    text-gray-700
                                    bg-yellow-300
@@ -238,9 +241,9 @@
                               ">
                          <img src="./img/Rectangle_9_copy (1).png" alt="dislike" class="w-4 h-4" />
                     </button>
-                    <img class="object-cover w-full h-56" src="./img/kanye@2x.png" alt="avatar" />
+                    <img class="object-cover w-full h-56" src="./img/kanye@2x.png" alt="avatar" id="avatar" />
 
-                    <div class="py-5 text-center">
+                    <div class="py-5 text-center" id="text">
                          <a href="#" class="
                                         block
                                         text-2xl
@@ -289,7 +292,7 @@
                               bg-white
                               rounded-lg
                               shadow-lg
-                         ">
+                         " id="cards2">
                     <button class="
                                    text-gray-700
                                    bg-yellow-300
@@ -301,9 +304,9 @@
                               ">
                          <img src="./img/Rectangle_9_copy (1).png" alt="dislike" class="w-4 h-4" />
                     </button>
-                    <img class="object-cover w-full h-56" src="./img/mark@2x.png" alt="avatar" />
+                    <img class="object-cover w-full h-56" src="./img/mark@2x.png" alt="avatar" id="avatar" />
 
-                    <div class="py-5 text-center">
+                    <div class="py-5 text-center" id="text">
                          <a href="#" class="
                                         block
                                         text-2xl
@@ -352,7 +355,7 @@
                               bg-white
                               rounded-lg
                               shadow-lg
-                         ">
+                         " id="cards3">
                     <button class="
                                    text-white
                                    bg-green-500
@@ -364,9 +367,9 @@
                               ">
                          <img src="./img/Rectangle_9_copy.png" alt="like" class="w-4 h-4" />
                     </button>
-                    <img class="object-cover w-full h-56" src="./img/cristina@2x.png" alt="avatar" />
+                    <img class="object-cover w-full h-56" src="./img/cristina@2x.png" alt="avatar" id="avatar" />
 
-                    <div class="py-5 text-center">
+                    <div class="py-5 text-center" id="text">
                          <a href="#" class="
                                         block
                                         text-2xl
@@ -415,7 +418,7 @@
                               bg-white
                               rounded-lg
                               shadow-lg
-                         ">
+                         " id="cards4">
                     <button class="
                                    text-white
                                    bg-green-500
@@ -427,9 +430,9 @@
                               ">
                          <img src="./img/Rectangle_9_copy.png" alt="like" class="w-4 h-4" />
                     </button>
-                    <img class="object-cover w-full h-56" src="./img/malala@2x.png" alt="avatar" />
+                    <img class="object-cover w-full h-56" src="./img/malala@2x.png" alt="avatar" id="avatar" />
 
-                    <div class="py-5 text-center">
+                    <div class="py-5 text-center" id="text">
                          <a href="#" class="
                                         block
                                         text-2xl
@@ -478,7 +481,7 @@
                               bg-white
                               rounded-lg
                               shadow-lg
-                         ">
+                         " id="cards5">
                     <button class="
                                    text-gray-700
                                    bg-yellow-300
@@ -490,9 +493,9 @@
                               ">
                          <img src="./img/Rectangle_9_copy (1).png" alt="dislike" class="w-4 h-4" />
                     </button>
-                    <img class="object-cover w-full h-56" src="./img/elon@2x.png" alt="avatar" />
+                    <img class="object-cover w-full h-56" src="./img/elon@2x.png" alt="avatar" id="avatar" />
 
-                    <div class="py-5 text-center">
+                    <div class="py-5 text-center" id="text">
                          <a href="#" class="
                                         block
                                         text-2xl
@@ -541,7 +544,7 @@
                               bg-white
                               rounded-lg
                               shadow-lg
-                         ">
+                         " id="cards6">
                     <button class="
                                    text-white
                                    bg-green-500
@@ -553,9 +556,9 @@
                               ">
                          <img src="./img/Rectangle_9_copy.png" alt="like" class="w-4 h-4" />
                     </button>
-                    <img class="object-cover w-full h-56" src="./img/greta@2x.png" alt="avatar" />
+                    <img class="object-cover w-full h-56" src="./img/greta@2x.png" alt="avatar" id="avatar" />
 
-                    <div class="py-5 text-center">
+                    <div class="py-5 text-center" id="text">
                          <a href="#" class="
                                         block
                                         text-2xl
@@ -634,6 +637,7 @@
                </span>
           </div>
      </footer>
+     <script src="./js/index.js"></script>
 </body>
 
 </html>
